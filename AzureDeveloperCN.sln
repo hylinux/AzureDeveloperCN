@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureDeveloperCN.Demo", "Az
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDeveloperCN.Demo.WebAssembly.HelloWorld", "AzureDeveloperCN.Demo.WebAssembly.HelloWorld\AzureDeveloperCN.Demo.WebAssembly.HelloWorld.csproj", "{B3B1D835-E037-4D65-A2A7-BAA3E72CBAF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDeveloperCN.Demo.Server.HelloWorld", "AzureDeveloperCN.Demo.Server.HelloWorld\AzureDeveloperCN.Demo.Server.HelloWorld.csproj", "{9ADDE604-83FD-43FD-BB50-D1089A24E2AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,12 +50,17 @@ Global
 		{B3B1D835-E037-4D65-A2A7-BAA3E72CBAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3B1D835-E037-4D65-A2A7-BAA3E72CBAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3B1D835-E037-4D65-A2A7-BAA3E72CBAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADDE604-83FD-43FD-BB50-D1089A24E2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADDE604-83FD-43FD-BB50-D1089A24E2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADDE604-83FD-43FD-BB50-D1089A24E2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADDE604-83FD-43FD-BB50-D1089A24E2AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B3B1D835-E037-4D65-A2A7-BAA3E72CBAF1} = {5574F0F6-6106-4915-9616-E73A3570745C}
+		{9ADDE604-83FD-43FD-BB50-D1089A24E2AD} = {5574F0F6-6106-4915-9616-E73A3570745C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F13B9CD-C574-44C3-9834-BC1DD0F2C629}
