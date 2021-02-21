@@ -1,1 +1,5 @@
 # AzureDeveloperCN
+
+AzureDeveloperCN项目是基于微软Blazor技术实现的一个Web项目，前端采用Blazor WebAssembly客户端通过SignalR客户端和后团的Server项目进行沟通，
+所有的UI事件更新在浏览器端即可完成，业务逻辑的部分由Server 完成。
+
