@@ -1,0 +1,37 @@
+﻿@page "/todo"
+
+<h3>当前已经完成的事件有: (@todos.Count( todo => todo.isDone))</h3>
+
+<ul>
+    @foreach( var todo in todos )
+    {
+        <li>
+            <input type="checkbox" @bind="todo.isDone" />
+            <input @bind="todo.Title" />
+        </li>
+    }
+</ul>
+
+<input class="newtodocss" placeholder="请在这里添加需要记录的事情" @bind="newTodo" />
+<button @onclick="AddTodo">添加新事件</button>
+
+
+
+@code {
+
+    private void AddTodo() 
+    {
+        if ( ! string.IsNullOrWhiteSpace(newTodo) )
+        {
+            todos.Add(new TodoItem {Title = newTodo });
+            newTodo = string.Empty;
+        }
+
+    }
+
+
+
+    private string newTodo;
+    private List<TodoItem> todos = new List<TodoItem>();
+
+}
